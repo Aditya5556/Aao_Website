@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function HeroSection() {
     return (
       <section className="relative bg-[#D9C07C] px-6 py-10 md:py-20 overflow-hidden">
@@ -27,7 +30,7 @@ export default function HeroSection() {
       </h1>
       <p className="text-[#3a2e13] text-lg leading-relaxed">
         Aaoji is your perfect pit stop on the highway, serving up bold, authentic flavors that are fast, fun, and full of taste.
-        Whether you're craving a quick bite or a satisfying meal on the go, Aaoji brings the perfect blend of tradition and excitement
+        Whether you are craving a quick bite or a satisfying meal on the go, Aaoji brings the perfect blend of tradition and excitement
         to your journey. Stop by for a flavorful adventure – no detours needed!
       </p>
 
@@ -51,7 +54,7 @@ export default function HeroSection() {
     {/* Right Image */}
     <div className="relative w-full h-full animate-fadeInRight">
       <div className="overflow-hidden border-[16px] border-[#600808] rounded-tl-[50%] rounded-tr-[50%] shadow-xl">
-        <img
+        <Image
           src="hero-image.jpg"
           alt="Dish"
           className="object-cover w-full h-full rounded-tl-[40%] rounded-tr-[40%]"

@@ -30,12 +30,12 @@ const testimonials = [
 ];
 
 const TestimonialAndContactSection = () => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     const container = scrollRef.current;
-    let scrollInterval;
+    let scrollInterval: NodeJS.Timeout;
 
     const scrollTestimonials = () => {
       scrollInterval = setInterval(() => {
@@ -45,7 +45,7 @@ const TestimonialAndContactSection = () => {
             behavior: "smooth",
           });
         }
-      }, 20);
+      }, 30);
     };
 
     scrollTestimonials();

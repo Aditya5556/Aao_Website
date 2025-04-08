@@ -1,17 +1,18 @@
 "use client"
 
-import { useState } from "react"
+
 //import { Menu } from "lucide-react"
 import { FaInstagram, FaFacebook } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Header() {
-  const [open, setOpen] = useState(false)
+  
 
   return (
     <header className="flex justify-between items-center px-10 py-4 bg-[#D9C07C] shadow-md">
       
       <div className="text-3xl font-bold text-[#b30808] flex items-center">
-        <img src="logo.png" alt="" className="h-10 w-auto mr-2" />
+        <Image src="logo.png" alt="" className="h-10 w-auto mr-2" />
         <span className="hidden sm:block"></span>
       </div>
 

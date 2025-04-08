@@ -28,7 +28,7 @@ export default function OutletsSection() {
       <div className="text-center mb-8">
         <h4 className="text-red-600 uppercase tracking-wider text-sm mb-1">Outlets</h4>
         <h2 className="text-3xl font-semibold text-red-700">
-          Relish Every <span className="italic">Sweet</span> Bite with Giani's
+          Relish Every <span className="italic">Sweet</span> Bite with Gianis
         </h2>
       </div>
 
