@@ -17,7 +17,7 @@ export default function Header() {
       </div>
 
       
-      <nav className="hidden md:flex gap-8 text-gray-900 font-medium text-lg ml-170">
+      <nav className="hidden md:flex gap-8 text-gray-900 font-medium text-lg ml-150">
         <a href="#">About Us</a>
         <a href="#">Menu</a>
         <a href="#">Testimonials</a>
