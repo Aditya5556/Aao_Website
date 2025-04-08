@@ -55,8 +55,8 @@ export default function HeroSection() {
     <div className="relative w-full h-full animate-fadeInRight">
       <div className="overflow-hidden border-[16px] border-[#600808] rounded-tl-[50%] rounded-tr-[50%] shadow-xl">
         <Image
-          src="hero-image.jpg"
-          alt="Dish"
+          src="/hero-image.jpg"
+          alt="Dish" width={100} height={60}
           className="object-cover w-full h-full rounded-tl-[40%] rounded-tr-[40%]"
         />
       </div>

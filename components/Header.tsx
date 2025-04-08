@@ -12,7 +12,7 @@ export default function Header() {
     <header className="flex justify-between items-center px-10 py-4 bg-[#D9C07C] shadow-md">
       
       <div className="text-3xl font-bold text-[#b30808] flex items-center">
-        <Image src="logo.png" alt="" className="h-10 w-auto mr-2" />
+        <Image src="/logo.png" alt="" width={100} height={60} />
         <span className="hidden sm:block"></span>
       </div>
 
